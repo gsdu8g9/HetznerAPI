@@ -1,0 +1,9 @@
+Usage: ./server.sh -i <ip> -a <action> [-o <option>]
+Actions:
+- list        - list of all servers
+- reboot      - reboot server [-o sw|hw|man]
+- wol         - wake on lan server
+- rescue      - boot server in rescue system
+- setup       - setup system on server
+- rdns        - set reverse DNS entry
+- server_name - set server_name
